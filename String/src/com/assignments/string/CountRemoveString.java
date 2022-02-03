@@ -1,13 +1,12 @@
 package com.assignments.string;
 
-public class ReverseCountRemoveString 
+public class CountRemoveString 
 {
 	public static void main(String args[])
 	{
-		//reverse the words from the given string sentence
+		
 		StringBuilder sb=new StringBuilder("Hello");
-		StringBuilder sb2=new StringBuilder("Megatron");
-		System.out.println(sb.reverse());
+		StringBuilder sb2=new StringBuilder("Megatron");	
 		
 		//Count the number of words in a given string sentence
 		System.out.println(sb.length());

@@ -1,11 +1,15 @@
 package com.assignments.string;
 //swap two strings without using the third variable
+import java.util.*;
 public class MyStringSwap 
 {
 	public static void main(String args[])
 	{
-		String a="Peter";
-		String b="Griffin";
+		Scanner s=new Scanner (System.in);
+		System.out.println("String 1: ");
+		String a=s.next();
+		System.out.println("String 2: ");
+		String b=s.next();
 		
 		System.out.println("Before Swapping: "+a+" "+b);
 		a=a+b;

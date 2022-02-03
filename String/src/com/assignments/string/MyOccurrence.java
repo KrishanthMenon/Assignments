@@ -7,6 +7,7 @@ public class MyOccurrence
 	public static void main(String args[]) 
 	{
 	  Scanner s=new Scanner(System.in);
+	  System.out.println("String: ");
 	  String input = s.next();                	  
 	  int count=0;
 	  System.out.println("enter a character");

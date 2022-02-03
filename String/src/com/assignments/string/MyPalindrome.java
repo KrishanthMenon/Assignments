@@ -1,14 +1,17 @@
 package com.assignments.string;
 //check if a string is a palindrome
+import java.util.*;
 public class MyPalindrome 
 {
 	  public static void main(String[] args) 
 	  {
-
-		    String str = "Malayalam", reverseStr = "";
+		  	Scanner s=new Scanner(System.in);
+		  	System.out.println("String: ");
+		    String str = s.next(); 
+		    String reverseStr = "";
 		    int strLength = str.length();
 
-		    for (int i = (strLength - 1); i >=0; --i) 
+		    for (int i = (strLength - 1); i >=0; i--) 
 		    {
 		      reverseStr = reverseStr + str.charAt(i);
 		    }
